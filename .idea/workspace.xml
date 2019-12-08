@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcf4e175-f5e5-4aa1-8ef9-a6ab4a267c04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/i623/arithmetic1/array/RemoveDuplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/i623/arithmetic1/array/RotateArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/i623/arithmetic1/array/TradeStocks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +23,13 @@
   </component>
   <component name="Git.Settings">
     <option name="PATH_TO_GIT" value="C:\coding\Git\bin\git.exe" />
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="BoheaStill &lt;boheastill@users.noreply.github.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -58,7 +65,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.RotateArray">
     <configuration name="RemoveDuplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.i623.arithmetic1.array.RemoveDuplication" />
       <module name="arithmetic1" />
@@ -66,8 +73,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.i623.arithmetic1.array.RotateArray" />
+      <module name="arithmetic1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RotateArray" />
         <item itemvalue="Application.RemoveDuplication" />
       </list>
     </recent_temporary>
@@ -97,6 +112,10 @@
       </list>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="361" y="94" key="#Project_Structure" timestamp="1575682709095">
       <screen x="0" y="0" width="1536" height="864" />
@@ -110,10 +129,14 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="574" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1575693058314" />
-    <state x="549" y="190" key="FileChooserDialogImpl" timestamp="1575776736307">
+    <state x="421" y="29" key="CommitChangelistDialog2" timestamp="1575778922929">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="549" y="190" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1575776736307" />
+    <state x="421" y="29" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1575778922929" />
+    <state x="549" y="190" key="FileChooserDialogImpl" timestamp="1575779276517">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="549" y="190" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1575779276517" />
     <state x="681" y="338" width="273" height="208" key="Github.ShareDialog" timestamp="1575776028721">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -122,50 +145,54 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="543" y="138" key="Github.UntrackedFilesDialog/0.0.1536.864@0.0.1536.864" timestamp="1575776039663" />
-    <state width="1493" height="277" key="GridCell.Tab.0.bottom" timestamp="1575776416988">
+    <state width="1493" height="248" key="GridCell.Tab.0.bottom" timestamp="1575800827077">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1575776416988" />
-    <state width="1493" height="277" key="GridCell.Tab.0.center" timestamp="1575776416988">
+    <state width="1493" height="248" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1575800827077" />
+    <state width="1493" height="248" key="GridCell.Tab.0.center" timestamp="1575800827076">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1575776416988" />
-    <state width="1493" height="277" key="GridCell.Tab.0.left" timestamp="1575776416988">
+    <state width="1493" height="248" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1575800827076" />
+    <state width="1493" height="248" key="GridCell.Tab.0.left" timestamp="1575800827076">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1575776416988" />
-    <state width="1493" height="277" key="GridCell.Tab.0.right" timestamp="1575776416988">
+    <state width="1493" height="248" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1575800827076" />
+    <state width="1493" height="248" key="GridCell.Tab.0.right" timestamp="1575800827076">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1575776416988" />
-    <state width="1493" height="277" key="GridCell.Tab.1.bottom" timestamp="1575776416989">
+    <state width="1493" height="248" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1575800827076" />
+    <state width="1493" height="277" key="GridCell.Tab.1.bottom" timestamp="1575800773155">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1575776416989" />
-    <state width="1493" height="277" key="GridCell.Tab.1.center" timestamp="1575776416989">
+    <state width="1493" height="277" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1575800773155" />
+    <state width="1493" height="277" key="GridCell.Tab.1.center" timestamp="1575800773155">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1575776416989" />
-    <state width="1493" height="277" key="GridCell.Tab.1.left" timestamp="1575776416988">
+    <state width="1493" height="277" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1575800773155" />
+    <state width="1493" height="277" key="GridCell.Tab.1.left" timestamp="1575800773154">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1575776416988" />
-    <state width="1493" height="277" key="GridCell.Tab.1.right" timestamp="1575776416989">
+    <state width="1493" height="277" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1575800773154" />
+    <state width="1493" height="277" key="GridCell.Tab.1.right" timestamp="1575800773155">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1575776416989" />
+    <state width="1493" height="277" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1575800773155" />
+    <state x="408" y="136" key="NewModule_or_Project.wizard" timestamp="1575780347023">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="408" y="136" key="NewModule_or_Project.wizard/0.0.1536.864@0.0.1536.864" timestamp="1575780347023" />
     <state x="249" y="10" key="SettingsEditor" timestamp="1575775629320">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="249" y="10" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1575775629320" />
-    <state x="361" y="168" key="Vcs.Push.Dialog.v2" timestamp="1575776597037">
+    <state x="361" y="168" key="Vcs.Push.Dialog.v2" timestamp="1575778938584">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="168" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1575776597037" />
-    <state x="461" y="260" key="com.intellij.ide.util.TipDialog" timestamp="1575767145934">
+    <state x="361" y="168" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1575778938584" />
+    <state x="461" y="260" key="com.intellij.ide.util.TipDialog" timestamp="1575779339563">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="461" y="260" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1575767145934" />
+    <state x="461" y="260" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1575779339563" />
     <state x="526" y="311" key="git4idea.rebase.GitRebaseDialog" timestamp="1575776792153">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -189,6 +216,19 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/i623/arithmetic1/array/RotateArray.java</url>
+          <line>22</line>
+          <properties class="cn.i623.arithmetic1.array.RotateArray" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/i623/arithmetic1/array/RotateArray.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
