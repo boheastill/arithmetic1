@@ -28,6 +28,7 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SIGN_OFF_COMMIT" value="true" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -151,6 +152,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="421" y="28" key="CommitChangelistDialog2" timestamp="1586955162165">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="421" y="28" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1586955162165" />
     <state width="1493" height="467" key="GridCell.Tab.0.bottom" timestamp="1586793576922">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -167,14 +172,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="467" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1586793576921" />
-    <state x="361" y="169" key="Vcs.Push.Dialog.v2" timestamp="1586790134702">
+    <state x="536" y="151" key="VCS.ChangeListViewerDialog" timestamp="1586955217840">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="169" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1586790134702" />
+    <state x="536" y="151" key="VCS.ChangeListViewerDialog/0.0.1536.864@0.0.1536.864" timestamp="1586955217840" />
+    <state x="361" y="169" key="Vcs.Push.Dialog.v2" timestamp="1586955171359">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="169" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1586955171359" />
     <state x="461" y="261" key="com.intellij.ide.util.TipDialog" timestamp="1586955142227">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="461" y="261" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1586955142227" />
+    <state x="564" y="351" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586955206751">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="564" y="351" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1586955206751" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
